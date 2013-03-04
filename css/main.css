@@ -7,6 +7,6 @@ h3 { font-size: 1.3rem; }
 
 header { outline: 2px solid red; }
 
-.wrapper { outline: 2px solid green; }
+.wrapper { outline: 2px solid green; margin: 0 auto; width: 1400px; }
 
 .header-container, .main-container, .footer-container { border: 0; }
