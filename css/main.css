@@ -6,3 +6,5 @@ h2 { font-size: 1.5rem; }
 h3 { font-size: 1.3rem; }
 
 header { outline: 2px solid red; }
+
+.wrapper { outline: 2px solid green; }
