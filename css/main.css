@@ -9,8 +9,9 @@ h3 { font-size: 1.3rem; }
 .wrapper { outline: 2px solid green; margin: 0 auto; width: 1400px; }
 
 .header-container { 
-  background: none repeat scroll 0 0 #B6DDE7;
-  height: 59px;
+  background-image: -moz-linear-gradient(center top , rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
+  height: 60px;
+  color: white;
 }
 
 .footer-container {
