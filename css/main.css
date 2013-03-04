@@ -9,8 +9,8 @@ h3 { font-size: 1.3rem; }
 .wrapper { outline: 2px solid green; margin: 0 auto; width: 1400px; }
 
 .header-container { 
-  background-color: black; 
-  
+  background: none repeat scroll 0 0 #B6DDE7;
+  height: 59px;
 }
 
 .footer-container {
@@ -21,4 +21,5 @@ h3 { font-size: 1.3rem; }
   radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color:#282828;
   background-size:16px 16px;
+  color: white;
 }
