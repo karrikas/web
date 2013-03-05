@@ -6,12 +6,13 @@ h2 { font-size: 1.5rem; }
 h3 { font-size: 1.3rem; }
 
 .header-container, .main-container, .footer-container { border: 0; }
-.wrapper { outline: 2px solid green; margin: 0 auto; width: 1400px; padding: 0 1em; }
+.wrapper { margin: 0 auto; max-width: 1400px; padding: 0 1em; }
 
 .header-container { 
   background-image: -moz-linear-gradient(center top , rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
   height: 60px;
   color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .footer-container {
@@ -24,3 +25,21 @@ h3 { font-size: 1.3rem; }
   color: white;
   min-height: 300px;
 }
+
+/* HEADER */
+.header-container .title {     
+    color: #87ADB0;
+    float: left;
+    font-size: 2rem;
+    margin: 0.25em 0 0;
+    text-shadow: 0 0 2px black;
+    vertical-align: middle;
+}
+.header-container #btnmenu { display: none; }
+.header-container #menu { float: right; font-family: 'Oswald', sans-serif; }
+.header-container #menu ul { margin: 0; }
+.header-container #menu ul li { display: inline; }
+.header-container #menu ul li a { 
+color: #C4CBCF; display: table-cell; height: 60px; padding: 0 1em; text-decoration: none;
+text-shadow: 0 -1px black, 0 1px grey; vertical-align: middle; }
+.header-container #menu ul li a:hover { color: white;  }
