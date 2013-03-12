@@ -36,10 +36,10 @@ h3 { font-size: 1.3rem; }
     vertical-align: middle;
 }
 .header-container #btnmenu { display: none; }
-.header-container #menu { float: right; font-family: 'Oswald', sans-serif; }
+.header-container #menu { float: right; font-family: 'Oswald', sans-serif; margin: 0.8em 0; }
 .header-container #menu ul { margin: 0; }
 .header-container #menu ul li { display: inline; }
 .header-container #menu ul li a { 
-color: #C4CBCF; display: table-cell; height: 60px; padding: 0 1em; text-decoration: none;
+color: #C4CBCF; padding: 0 1em; text-decoration: none;
 text-shadow: 0 -1px black, 0 1px grey; vertical-align: middle; }
 .header-container #menu ul li a:hover { color: white;  }
