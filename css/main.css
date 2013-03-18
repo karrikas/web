@@ -1,29 +1,26 @@
-body{ font-family: 'Ubuntu', sans-serif; }
+body{ font-family: 'Ubuntu', sans-serif; position: relative; }
 h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; margin: 0; }
 h1.title { font-family: 'Leckerli One', cursive; }
 h1 { font-size: 2.5rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.3rem; }
 
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
 .header-container, .main-container, .footer-container { border: 0; }
 .wrapper { margin: 0 auto; max-width: 1400px; padding: 0 1em; }
 
 .header-container { 
-  background-image: -moz-linear-gradient(center top , rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
   height: 60px;
   color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-.footer-container {
-  background-image:
-  radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
-  radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
-  background-size: 110px 110px;
-  background-color: #C8D3A7;
-  background-position: 0 0, 55px 55px;
-  color: white;
-  min-height: 300px;
+  
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(38, 38, 38, 0.9)), to(rgba(59, 59, 59, 0.9)));
+  background: -webkit-linear-gradient(top, rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
+  background: -moz-linear-gradient(top, rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
+  background: -ms-linear-gradient(top, rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
+  background: -o-linear-gradient(top, rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));  
+  background: linear-gradient(top, rgba(59, 59, 59, 0.9), rgba(38, 38, 38, 0.9));
 }
 
 /* HEADER */
@@ -43,3 +40,13 @@ h3 { font-size: 1.3rem; }
 color: #C4CBCF; padding: 0 1em; text-decoration: none;
 text-shadow: 0 -1px black, 0 1px grey; vertical-align: middle; }
 .header-container #menu ul li a:hover { color: white;  }
+
+/* MAIN */
+.main { padding: 1em; }
+
+@media screen and (max-width:42em){
+	/* HEADER */
+	.main { background: red; }
+	.header-container #btnmenu { display: block; }
+	.header-container #menu { position: absolute; bottom: 0; left: 0; width: 100%; } 
+}
