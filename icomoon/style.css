@@ -38,44 +38,44 @@ you can use the generic selector below, but it's slower:
 	-webkit-font-smoothing: antialiased;
 }
 .icon-phone:before {
-	content: "\e000";
+	content: "\21";
 }
 .icon-envelop:before {
-	content: "\e001";
+	content: "\22";
 }
 .icon-location:before {
-	content: "\e002";
+	content: "\23";
 }
 .icon-grin:before {
-	content: "\e003";
+	content: "\24";
 }
 .icon-checkmark:before {
-	content: "\e004";
+	content: "\25";
 }
 .icon-menu:before {
-	content: "\e005";
+	content: "\26";
 }
 .icon-twitter:before {
-	content: "\e006";
+	content: "\27";
 }
 .icon-facebook:before {
-	content: "\e007";
+	content: "\28";
 }
 .icon-google-plus:before {
-	content: "\e008";
+	content: "\29";
 }
 .icon-github:before {
-	content: "\e009";
+	content: "\2a";
 }
 .icon-wordpress:before {
-	content: "\e00a";
+	content: "\2b";
 }
 .icon-linkedin:before {
-	content: "\e00b";
+	content: "\2c";
 }
 .icon-menu-2:before {
-	content: "\e00c";
+	content: "\2d";
 }
 .icon-rocket:before {
-	content: "\e00d";
+	content: "\2e";
 }

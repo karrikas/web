@@ -6,20 +6,20 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-			'icon-phone' : '&#xe000;',
-			'icon-envelop' : '&#xe001;',
-			'icon-location' : '&#xe002;',
-			'icon-grin' : '&#xe003;',
-			'icon-checkmark' : '&#xe004;',
-			'icon-menu' : '&#xe005;',
-			'icon-twitter' : '&#xe006;',
-			'icon-facebook' : '&#xe007;',
-			'icon-google-plus' : '&#xe008;',
-			'icon-github' : '&#xe009;',
-			'icon-wordpress' : '&#xe00a;',
-			'icon-linkedin' : '&#xe00b;',
-			'icon-menu-2' : '&#xe00c;',
-			'icon-rocket' : '&#xe00d;'
+			'icon-phone' : '&#x21;',
+			'icon-envelop' : '&#x22;',
+			'icon-location' : '&#x23;',
+			'icon-grin' : '&#x24;',
+			'icon-checkmark' : '&#x25;',
+			'icon-menu' : '&#x26;',
+			'icon-twitter' : '&#x27;',
+			'icon-facebook' : '&#x28;',
+			'icon-google-plus' : '&#x29;',
+			'icon-github' : '&#x2a;',
+			'icon-wordpress' : '&#x2b;',
+			'icon-linkedin' : '&#x2c;',
+			'icon-menu-2' : '&#x2d;',
+			'icon-rocket' : '&#x2e;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
